@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: web-app
-        image: nginx:1.21
+        image: nginx:invalid-test-tag
         ports:
         - containerPort: 80
         resources:

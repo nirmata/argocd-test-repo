@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: web-app
-        image: nginx:totally-invalid-auto-sync
+        image: nginx:1.23
         ports:
         - containerPort: 80
         resources:

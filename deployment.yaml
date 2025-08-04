@@ -38,4 +38,4 @@ spec:
             path: /
             port: 80
           initialDelaySeconds: 15
-          periodSeconds: 20
+          periodSeconds: 20  invalid_yaml_syntax: this will break sync

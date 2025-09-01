@@ -15,9 +15,10 @@ spec:
       labels:
         app: sample-web-app
     spec:
+      automountServiceAccountToken: false
       containers:
       - name: web-app
-        image: nginx:1.23
+        image: public.ecr.aws/nginx/nginx:latest
         ports:
         - containerPort: 80
         resources:

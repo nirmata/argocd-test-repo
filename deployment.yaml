@@ -18,7 +18,7 @@ spec:
       automountServiceAccountToken: false
       containers:
       - name: web-app
-        image: public.ecr.aws/nginx/nginx:latest
+        image: nginx:invalid-test-commit-message
         ports:
         - containerPort: 80
         resources:

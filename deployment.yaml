@@ -18,7 +18,7 @@ spec:
       automountServiceAccountToken: false
       containers:
       - name: web-app
-        image: nginx:latest-not
+        image: nginx:latest
         ports:
         - containerPort: 80
         resources:
